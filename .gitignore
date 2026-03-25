@@ -13,19 +13,13 @@
 *.obj
 *.so
 *.dll
-*.dylib
 *.exe
 *.a
-*.lib
 
 # =========================
 # CMake
 # =========================
-CMakeFiles/
-CMakeCache.txt
-cmake-build-*/
-compile_commands.json
-Makefile
+
 
 # =========================
 # Visual Studio
@@ -35,7 +29,7 @@ Makefile
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
+*.ipch
 
 # =========================
 # VSCode
