@@ -30,6 +30,9 @@
     <ClCompile Include="src\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\Core\Camera2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Core\Application.h">
@@ -41,5 +44,22 @@
     <ClInclude Include="include\Core\Window.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="include\Game\Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Shader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Camera2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\FragmentShader.fs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="shader\VertexShader.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

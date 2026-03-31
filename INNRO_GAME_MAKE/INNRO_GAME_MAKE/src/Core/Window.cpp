@@ -1,6 +1,10 @@
 #include "Core/Window.h"
 #include <iostream>
 
+Window::Window() {
+
+}
+
 bool Window::Init(int width, int height, const char* title)
 {
     if (!glfwInit()) {

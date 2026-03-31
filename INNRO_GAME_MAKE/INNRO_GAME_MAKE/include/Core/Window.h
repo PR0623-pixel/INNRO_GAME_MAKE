@@ -5,6 +5,7 @@
 
 class Window {
 public:
+    Window();
     bool Init(int width, int height, const char* title);
     void Update();
     bool ShouldClose();
@@ -12,5 +13,5 @@ public:
     GLFWwindow* GetNative() { return window; }
 
 private:
-    GLFWwindow* window = nullptr;
+    GLFWwindow* window;
 };
