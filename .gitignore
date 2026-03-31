@@ -6,7 +6,7 @@
 /out/
 /Debug/
 /Release/
-/x64/
+INNRO_GAME_MAKE/x64/
 /x86/
 
 *.o
@@ -15,6 +15,11 @@
 *.dll
 *.exe
 *.a
+*.pdb
+*.tlog
+*.iobj
+*.ipdb
+*.idb
 
 # =========================
 # CMake
@@ -30,6 +35,11 @@
 *.user
 *.userosscache
 *.ipch
+*.pdb
+*.tlog
+*.iobj
+*.ipdb
+*.idb
 
 # =========================
 # VSCode
